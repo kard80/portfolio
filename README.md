@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Design Reference
+- https://sanjoo.in/
+- https://www.saharat-dev.com/home
+
 ## Available Scripts
 
 In the project directory, you can run:
