@@ -1,12 +1,21 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './navbar.less';
 
 function Navbar() {
-    const [clickHam, setClickHam] = useState(false);
+    // const [clickHam, setClickHam] = useState(false);
     return (
         <div className='container'>
-            <span>KARD SAHAPHONG</span>
-            <div
+            <p>KARD SAHAPHONG</p>
+            <div className='list'>
+                <ul>
+                    <li><a href='#home'>Home</a></li>
+                    <li><a href='#about-me'>About</a></li>
+                    <li><a href='#experience'>Experience</a></li>
+                    <li><a href='#contact'>Contact</a></li>
+                </ul>
+            </div>
+            <div></div>
+            {/* <div
                 className='hamburger'
                 onClick={() => setClickHam(!clickHam)}
             >
@@ -22,7 +31,7 @@ function Navbar() {
                     className='ham3'
                     style={{ transform: clickHam ? 'rotate(-45deg) translate(4px, -3px)' : 'none' }}
                 ></div>
-            </div>
+            </div> */}
         </div>
     )
 }
