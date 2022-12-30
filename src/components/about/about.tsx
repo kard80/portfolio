@@ -7,9 +7,9 @@ export default function About() {
     return (
         <div style={{ position: 'relative', top: '50px' }}>
             <div id='home' className='main-section black intro'>
-                <span style={{ fontSize: '24px' }}>I'm</span>
-                <span style={{ fontSize: '72px' }}>KARD SAHAPHONG</span>
-                <span style={{ fontSize: '36px' }}>a Software Engineer</span>
+                <span className='font-24'>I'm</span>
+                <span className='font-72'>KARD SAHAPHONG</span>
+                <span className='font-36'>a Software Engineer</span>
             </div>
             <div id='about-me' className='section'>
                 <h1>About Me</h1>
@@ -39,7 +39,7 @@ export default function About() {
             <div id='contact' className='section'>
                 <h1>Contact</h1>
                 <div style={{ textAlign: 'left' }}>
-                    <p>
+                    <p onClick={() => navigator.clipboard.writeText('kard.sp2@gmail.com')}>
                         <img src={gmail} className='icon' alt='#' />
                         <span> kard.sp2@gmail.com</span>
                     </p>

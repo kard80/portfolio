@@ -11,16 +11,17 @@
 
     .list {
         max-width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-        ul {
-            list-style: none;
-            display: flex;
-            justify-content: space-between;
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
 
-            li a {
-                color: inherit;
-                text-decoration: inherit;
-            }
+        a:hover {
+            transform: translateY(-5px);
         }
     }
 

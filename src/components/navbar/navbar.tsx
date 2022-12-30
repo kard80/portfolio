@@ -5,14 +5,13 @@ function Navbar() {
     // const [clickHam, setClickHam] = useState(false);
     return (
         <div className='container'>
-            <p>KARD SAHAPHONG</p>
+            {/* <p>KARD SAHAPHONG</p> */}
+            <div></div>
             <div className='list'>
-                <ul>
-                    <li><a href='#home'>Home</a></li>
-                    <li><a href='#about-me'>About</a></li>
-                    <li><a href='#experience'>Experience</a></li>
-                    <li><a href='#contact'>Contact</a></li>
-                </ul>
+                <a href='#home'>Home</a>
+                <a href='#about-me'>About</a>
+                <a href='#experience'>Experience</a>
+                <a href='#contact'>Contact</a>
             </div>
             <div></div>
             {/* <div
